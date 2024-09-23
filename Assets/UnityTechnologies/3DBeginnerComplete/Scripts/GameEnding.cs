@@ -44,6 +44,7 @@ public class GameEnding : MonoBehaviour
 
     private void Update ()
     {
+        
         if (m_IsPlayerAtExit)
         {
             EndLevel (exitBackgroundImageCanvasGroup, false, exitAudio);
@@ -52,6 +53,7 @@ public class GameEnding : MonoBehaviour
         {
             EndLevel (caughtBackgroundImageCanvasGroup, true, caughtAudio);
         }
+        
     }
 
     private void EndLevel (CanvasGroup imageCanvasGroup, bool doRestart, AudioSource audioSource)

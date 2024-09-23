@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private InputAction MoveAction;
 
     [SerializeField]
-    private float turnSpeed = 20f;
+    private float turnSpeed = 20f; 
 
     private Animator m_Animator;
     private Rigidbody m_Rigidbody;
